@@ -108,3 +108,50 @@ a {
 .main {
   padding: 150px;
 }
+
+@media (max-width: 1220px) {
+  .button {
+    font-size: 24px;
+    padding: 0 32px;
+    height: 70px;
+  }
+
+  .button img {
+    height: 24px;
+  }
+}
+
+@media (max-width: 815px) {
+  .main {
+    padding: 75px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 0 24px;
+    height: 60px;
+    margin-top: 24px;
+  }
+
+  .button img {
+    height: 20px;
+  }
+
+  .button-container {
+    margin-top: 32px;
+    flex-wrap: wrap;
+  }
+
+  .header {
+    padding: 0 20px;
+  }
+
+  .header__link {
+    font-size: 32px;
+  }
+
+  .nav__list-item {
+    margin-inline-end: 24px;
+    font-size: 16px;
+  }
+}
