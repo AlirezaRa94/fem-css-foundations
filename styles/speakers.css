@@ -55,3 +55,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 815px) {
+  .nav__list-item {
+    color: var(--color-text-on-primary);
+  }
+}

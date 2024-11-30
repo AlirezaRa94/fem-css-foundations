@@ -9,7 +9,8 @@
   font-size: 40px;
 }
 
-.home .menu path {
+.home .menu path,
+.home .close path {
   fill: var(--color-text-on-primary);
 }
 
